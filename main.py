@@ -108,7 +108,7 @@ def gamestage():
                 score += 1
                 hit_sound.play()
 
-                if score == 28:
+                if score >= 28:
                     page = 3
 
     # スコア表示
